@@ -1,0 +1,10 @@
+.ctn-login{
+  background-image: url(../images/background-login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.ctn-login-form{
+  margin: 0 auto;
+  width: 220px;
+}
