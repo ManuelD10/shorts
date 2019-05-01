@@ -1,3 +1,11 @@
+@font-face {
+font-family: quickSand;
+src: url(../fonts/Quicksand-Regular.otf);
+}
+@font-face {
+font-family: quickSandBold;
+src: url(../fonts/Quicksand-Bold.otf);
+}
 .ctn-login{
   background-image: url(../images/background-login.jpg);
   background-repeat: no-repeat;
@@ -50,3 +58,44 @@
 }
 
 /*--------------------- Style Home -----------------------*/
+.img-header-home{
+  background: url(../images/img-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ctn-txt-banner-home{
+  color: white;
+  font-family: quickSand;
+  font-size: 21px;
+  margin-top: 250px;
+  padding-bottom: 40px;
+}
+.sub-title{
+  color: #005E56;
+  font-family: quickSandBold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ctn-items-visto{
+  height: 94px;
+}
+.ctn-txt-items{
+  font-family: quickSand;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+.ctn-txt-items > h4{
+  font-family: quickSandBold;
+  margin-bottom: 0px;
+}
+.ctn-txt-items-time{
+  font-family: quickSand;
+  color: white;
+  position: absolute;
+  bottom: -9px;
+  right: 15px;
+}
+.img-visto-1{
+  background-image: url(../images/img-mas-visto-1.jpg);
+}
