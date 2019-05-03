@@ -6,6 +6,9 @@ src: url(../fonts/Quicksand-Regular.otf);
 font-family: quickSandBold;
 src: url(../fonts/Quicksand-Bold.otf);
 }
+.f-right{
+  float: right;
+}
 .ctn-login{
   background-image: url(../images/background-login.jpg);
   background-repeat: no-repeat;
@@ -56,7 +59,21 @@ src: url(../fonts/Quicksand-Bold.otf);
   height: 61px;
   width: 100%;
 }
-
+.footer{
+  background: #00AAA4;
+  height: 95px;
+  margin-top: 50px;
+  width: 100%;
+}
+.txt-footer{
+  color: white;
+  text-align: right;
+  float: right;
+  margin-top: 15px;
+}
+.txt-footer > p{
+  font-size: 10px;
+}
 /*--------------------- Style Home -----------------------*/
 .img-header-home{
   background: url(../images/img-home.jpg);
@@ -77,7 +94,7 @@ src: url(../fonts/Quicksand-Bold.otf);
   margin-bottom: 25px;
 }
 .ctn-items-visto{
-  height: 94px;
+  height: 125px;
 }
 .ctn-txt-items{
   font-family: quickSand;
@@ -98,4 +115,24 @@ src: url(../fonts/Quicksand-Bold.otf);
 }
 .img-visto-1{
   background-image: url(../images/img-mas-visto-1.jpg);
+  background-size: cover;
+}
+.txt-video-modal{
+  background: #E0F0EF;
+  color: #005E56;
+  font-family: quickSand;
+  font-size: 11px;
+  padding: 13px;
+  width: 115% !important;
+}
+.txt-modal{
+  margin-left: 20px;
+}
+.title-modal{
+  font-family: quickSandBold;
+  color: #005E56;
+}
+.txt-info-modal{
+  color: #005E56;
+  font-size: 11px;
 }
