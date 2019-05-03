@@ -136,3 +136,47 @@ src: url(../fonts/Quicksand-Bold.otf);
   color: #005E56;
   font-size: 11px;
 }
+
+.img-header-home-user{
+  background: url(../images/img-home-user.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.ctn-info-user{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.ctn-image-user{
+  overflow: hidden;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  float: left;
+}
+.ctn-input-user{
+  margin-left: 8px;
+  width: 50%;
+  float: right;
+}
+.input-user{
+  color: #005E56;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  margin-top: 10px;
+  width: 100%;
+}
+.button-info-user{
+  background: #00AAA4;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
