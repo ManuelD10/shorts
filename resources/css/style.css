@@ -190,10 +190,12 @@ src: url(../fonts/Quicksand-Bold.otf);
 .title-search{
   color: #005E56;
   font-family: quickSandBold;
+  float: left;
 }
 .txt-search{
   color: #005E56;
   font-family: quickSand;
+  float: left;
 }
 .margin-row{
   margin-top: 30px;
@@ -247,11 +249,13 @@ src: url(../fonts/Quicksand-Bold.otf);
 }
 .img-user-coment-input{
   background: #8FCBC9;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  border-radius: 11px;
+  width: 78px;
+  height: 42px;
   float: right;
-  margin-left: 15px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
 }
 .input-coment{
   border: 0px;
@@ -299,4 +303,37 @@ src: url(../fonts/Quicksand-Bold.otf);
   padding: 25px;
   width: 80%;
   font-family: quickSand;
+}
+.title-search > a{
+  text-decoration: none;
+}
+.txt-editar{
+  color: #01a9a4 !important;
+  float: left;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.arrow-left{
+  width: 17px;
+background: #0188849c;
+color: white;
+position: absolute;
+z-index: 2;
+height: 100%;
+text-align: center;
+padding-top: 50px;
+font-size: 14px;
+}
+.arrow-right{
+  width: 17px;
+  background: #0188849c;
+  color: white;
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 14px;
+  right: 0px;
 }
